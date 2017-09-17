@@ -230,7 +230,9 @@ static GLfloat incangle(GLfloat val, GLfloat delta)
     checkGlError("glUseProgram");
 
     CGSize ss = [self.surface surfaceSize];
-    glUniform2f(uSurfaceSize, ss.width, ss.height);
+    float width = ss.width;
+    float height = ss.height;
+    glUniform2f(uSurfaceSize, width, height);
     checkGlError("glUniform2f");
 
     glUniform3fv(uAngles, 1, angles);
