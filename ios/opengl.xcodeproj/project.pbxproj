@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD2886CE1BACBC2C001B134B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2886CD1BACBC2C001B134B /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		BD2886D41BACBC3D001B134B /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886D21BACBC3D001B134B /* AppController.m */; settings = {ASSET_TAGS = (); }; };
-		BD2886D71BACBC4F001B134B /* shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BD2886D51BACBC4F001B134B /* shader.fsh */; settings = {ASSET_TAGS = (); }; };
-		BD2886D81BACBC4F001B134B /* shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BD2886D61BACBC4F001B134B /* shader.vsh */; settings = {ASSET_TAGS = (); }; };
-		BD2886E01BACBC95001B134B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DB1BACBC95001B134B /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		BD2886E11BACBC95001B134B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DD1BACBC95001B134B /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BD2886E31BACBC95001B134B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DF1BACBC95001B134B /* main.m */; settings = {ASSET_TAGS = (); }; };
-		BD2886E81BACBCDE001B134B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2886E41BACBCDE001B134B /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		BD2886E91BACBCDE001B134B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2886E61BACBCDE001B134B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		BDF6819C1BADB347005F495F /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF6819B1BADB347005F495F /* Platform.m */; settings = {ASSET_TAGS = (); }; };
+		BD2886CE1BACBC2C001B134B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2886CD1BACBC2C001B134B /* Assets.xcassets */; };
+		BD2886D41BACBC3D001B134B /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886D21BACBC3D001B134B /* AppController.m */; };
+		BD2886D71BACBC4F001B134B /* shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = BD2886D51BACBC4F001B134B /* shader.fsh */; };
+		BD2886D81BACBC4F001B134B /* shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = BD2886D61BACBC4F001B134B /* shader.vsh */; };
+		BD2886E01BACBC95001B134B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DB1BACBC95001B134B /* AppDelegate.m */; };
+		BD2886E11BACBC95001B134B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DD1BACBC95001B134B /* GameViewController.m */; };
+		BD2886E31BACBC95001B134B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2886DF1BACBC95001B134B /* main.m */; };
+		BD2886E81BACBCDE001B134B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2886E41BACBCDE001B134B /* LaunchScreen.storyboard */; };
+		BD2886E91BACBCDE001B134B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2886E61BACBCDE001B134B /* Main.storyboard */; };
+		BDF6819C1BADB347005F495F /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF6819B1BADB347005F495F /* Platform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,12 +139,12 @@
 		BD2886981BAC17BB001B134B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "CrystaX .NET USA";
 				TargetAttributes = {
 					BD28869F1BAC17BB001B134B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 26GGA5FL75;
+						DevelopmentTeam = DHKZ7WR43P;
 					};
 				};
 			};
@@ -224,13 +224,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -270,13 +278,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -307,6 +323,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHKZ7WR43P;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -320,6 +338,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHKZ7WR43P;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

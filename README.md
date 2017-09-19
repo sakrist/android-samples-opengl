@@ -33,11 +33,6 @@ To build it for Android, the following prerequisities needed:
 2. [Android SDK](http://developer.android.com/sdk/index.html)
 3. [Apache ANT](http://ant.apache.org/)
 
-If you're on OS X and have the [Homebrew](http://brew.sh), it's simple to install them all:
-
-```
-brew install android-sdk crystax-ndk ant
-```
 
 Please note, however, that CrystaX NDK should be of version 10.3.1 or higher. With Homebrew, you can
 check it as below:
@@ -54,6 +49,16 @@ and unpack it somewhere:
 curl -OL https://dl.crystax.net/ndk/darwin/current/crystax-ndk-10.3.1-b799-darwin-x86_64.tar.xz
 tar xf crystax-ndk-10.3.1-b799-darwin-x86_64.tar.xz
 ```
+
+Note:
+> I have searched and found no replacement for the android update project command.
+> If you still need to build I suggest reverting to SDK Tools 25.2.5 or earlier as they removed the command in Build Tool 25.3.0
+> 
+> You can download them from here and replace the tools folder in your ANDROID_SDK_HOME directory
+> https://dl.google.com/android/repository/tools_r25.2.5-windows.zip
+> https://dl.google.com/android/repository/tools_r25.2.5-macosx.zip
+> https://dl.google.com/android/repository/tools_r25.2.5-linux.zip
+
 
 Now, create `anroid/local.mk` with settings pointing to your Android SDK and CrystaX NDK installations.
 You can look into `android/local.mk.sample` for example.

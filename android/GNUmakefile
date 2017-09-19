@@ -102,7 +102,7 @@ clean:
 generate-ant-files: $(MYDIR)/build.xml native
 
 $(MYDIR)/build.xml:
-	$(android-sdk)/tools/android update project --name $(APP_NAME) --path $(MYDIR)
+	$(android-sdk)/tools/android update project --name $(APP_NAME) --path $(MYDIR) --target android-23
 
 .PHONY: generate-java-sources
 generate-java-sources: native
